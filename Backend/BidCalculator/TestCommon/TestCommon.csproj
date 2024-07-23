@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BidCalculator.Application\BidCalculator.Application.csproj" />
+      <ProjectReference Include="..\BidCalculator.Domain\BidCalculator.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
